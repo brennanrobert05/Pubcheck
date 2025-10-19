@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pubcheck/pages/authentication/login.dart';
 import 'package:pubcheck/pages/homepage.dart';
-import 'package:pubcheck/pages/login.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,6 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(home: Homepage());
+    return  MaterialApp(home: LoginPage());
   }
 }

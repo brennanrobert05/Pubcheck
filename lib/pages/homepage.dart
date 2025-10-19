@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
-  Homepage({super.key});
+  const Homepage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,4 +19,6 @@ class Homepage extends StatelessWidget {
       body: SafeArea(child: Center()),
     );
   }
+
+  
 }
