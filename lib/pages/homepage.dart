@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pubcheck/components/bottom_nav.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -12,13 +13,13 @@ class Homepage extends StatelessWidget {
           style: TextStyle(
             color: Colors.black87,
             fontWeight: FontWeight.bold,
-            fontSize: 30
-          )
-          )),
+            fontSize: 30,
+          ),
+        ),
+      ),
       backgroundColor: Colors.black12,
       body: SafeArea(child: Center()),
+      bottomNavigationBar: const BottomNav(), //bottom navigation
     );
   }
-
-  
 }

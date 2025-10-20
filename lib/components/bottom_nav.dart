@@ -42,11 +42,11 @@ class _BottomNavState extends State<BottomNav> {
             label: 'Nearby',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            label: 'Home',
+            icon: Icon(Icons.person_outline),
+            label: 'Profile',
           ),
-        ]
+        ],
       ),
-    )
+    );
   }
 }
